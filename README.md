@@ -1,2 +1,3 @@
 <h1> PROJECT DESCRIPTION </h1>
-<img src = "https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230309T073349Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5ce916cc78b6fcfe79c9d56021a26b6fe311c850753f9c6851320f4e198eef5b">
+![image](https://user-images.githubusercontent.com/77450186/223953556-bf3bb295-a073-41a3-bb5d-93f27b4607c5.png)
+
