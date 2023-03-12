@@ -8,10 +8,22 @@ import models
 
 class BaseModel:
     """the base model of the console"""
-    def __init__(self):
-        self.id = str(uuid.uuid4())
-        self.created_at = datetime.now()
-        self.updated_at = datetime.now()
+
+    def __init__(self, *args, **kwargs):
+        """initialiser"""
+        
+        if kwargs:
+            for k, v in kwargs.items():
+                if k == "created_at" or k == "updated_at":
+                    v = datetime.fromisoformat(kwargs[k])
+                if k == "__class__":
+                    pass
+                else:
+                    setattr(self, k, v)
+        else:
+            self.id = str(uuid.uuid4())
+            self.created_at = datetime.now()
+            self.updated_at = datetime.now()
     
     def __str__(self):
         """return a string representation"""
