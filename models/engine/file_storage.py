@@ -18,7 +18,6 @@ def new(self, obj):
     obj_class_name = obj.__class__.__name__
     obj_id = obj.id
     key_name = obj_class_name + "." + obj_id
-
     FileStorage.__objects[key_name] = obj
 
 def save(self):
